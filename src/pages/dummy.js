@@ -3,7 +3,7 @@ import React from 'react';
 const Dummy = () => {
   return (
     <div>
-      HI I'M DUMMY EXTENTION !!
+      HI I&apos;M DUMMY EXTENSION !!
     </div>
   )
 }

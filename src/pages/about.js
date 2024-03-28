@@ -19,7 +19,7 @@ export default function AboutPage() {
           At Edicutioon, we leverage the power of Next.js and React.js to create engaging and interactive educational experiences. Join us on our journey to transform the way people learn and grow.
         </p>
         <p className={`text-gray-700 dark:text-white leading-relaxed`}>
-          Whether you're a student, educator, or lifelong learner, we welcome you to explore our platform and discover new opportunities for knowledge and growth.
+          Whether you&apos;re a student, educator, or lifelong learner, we welcome you to explore our platform and discover new opportunities for knowledge and growth.
         </p>
       </div>
     </div>

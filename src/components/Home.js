@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 export default function Page() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -17,7 +18,8 @@ export default function Page() {
         </p>
 
         <div className="mt-6 flex justify-center">
-          <a href="/blog" className={`text-blue-500 hover:underline ${isDarkMode ? 'dark:text-blue-300' : ''}`}>Learn more about these technologies</a>
+          <Link href="/blog" className={`text-blue-500 hover:underline ${isDarkMode ? 'dark:text-blue-300' : ''}`}>Learn more about these technologies
+          </Link>
         </div>
       </div>
     </div>
